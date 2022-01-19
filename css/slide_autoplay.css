@@ -1,0 +1,31 @@
+*{margin:0; padding:0;}
+.swiper { width:100%; height:100%;}
+.swiper-slide {text-align: center; 
+			  /* Center slide text vertically */
+			  display: -webkit-box;
+			  display: -ms-flexbox;
+			  display: -webkit-flex;
+			  display: flex;
+			  -webkit-box-pack: center;
+			  -ms-flex-pack: center;
+			  -webkit-justify-content: center;
+			  justify-content: center;
+			  -webkit-box-align: center;
+			  -ms-flex-align: center;
+			  -webkit-align-items: center;
+			  align-items: center; }
+
+/*이동버튼 영역*/
+
+.swiper-button-prev.swiper-button-disabled, 
+.swiper-button-next.swiper-button-disabled{opacity:1;}
+
+.center{margin:auto;
+	width:1200px;}	
+.middle{
+	margin: auto;
+	width: 1200px;
+}
+/*페이지네이션 위치 container 밖으로 변경하기*/
+
+/*스와이퍼 js는 특성상 이동버튼이 container안에 들어가므로, 1200의 너비 안으로 이동 버튼을 누르고 싶으면 다른 방식을 사용해야 합니다!*/
